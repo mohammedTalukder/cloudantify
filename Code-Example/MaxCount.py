@@ -9,5 +9,11 @@ def Max_con_occurrences(a,b):
         else:
             current_count = 0
     return max_count
+
+if __name__ == "__main__":
+    input_string = input("Enter a string: ")
+    input_char = input("Enter a character: ")
+    c=Max_con_occurrences(input_string,input_char)
+    
     
     
