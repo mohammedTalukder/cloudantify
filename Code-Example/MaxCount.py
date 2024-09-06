@@ -14,6 +14,7 @@ if __name__ == "__main__":
     input_string = input("Enter a string: ")
     input_char = input("Enter a character: ")
     c=Max_con_occurrences(input_string,input_char)
+    print(f"Max Count is:{c}")
     
     
     
